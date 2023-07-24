@@ -48,8 +48,9 @@
       <h1>Aruba 2023</h1>
       <h2>Let's celebrate as Termisha turns 33!</h2>
       <div class="actions">
-        <a href="#hotels" class="btn-get-started">Accomodations</a>
-        <a href="#services" class="btn-services">Itinerary</a>
+        <a href="#services" class="btn-services">Flights</a>
+        <a href="#hotels" class="btn-services">Accomodations</a>
+        <!-- <a href="#services" class="btn-get-started">Itinerary</a> -->
       </div>
     </div>
   </section><!-- End Hero -->
@@ -66,22 +67,23 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Itinerary</a></li>
+          <li><a class="nav-link scrollto" href="#services">Flights</a></li>
           <li class="dropdown"><a href="#hotels"><span>Accomodations</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Condos</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">O Condominium Beachfront Residences</a></li>
-                  <li><a href="#">Pearl Aruba</a></li>
+                  <li><a href="#condominium">O Condominium Beachfront Residences</a></li>
+                  <li><a href="#pearl">Pearl Aruba</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Hotels/Resorts</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Renaissance Wind Creek</a></li>
-                  <li><a href="#">Embassy Suites</a></li>
-                  <li><a href="#">Holiday Inn</a></li>
-                  <li><a href="#">Eagle Aruba</a></li>
-                  <li><a href="#">Hyatt Place</a></li>
+                  <li><a href="#renaissance">Renaissance Wind Creek</a></li>
+                  <li><a href="#courtyard">Courtyard by Marriott</a></li>
+                  <li><a href="#embassy">Embassy Suites</a></li>
+                  <li><a href="#holiday">Holiday Inn</a></li>
+                  <li><a href="#eagle">Eagle Aruba</a></li>
+                  <li><a href="#hyatt">Hyatt Place</a></li>
                 </ul>
               </li>
             </ul>
@@ -89,7 +91,7 @@
           
           <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">RSVP</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -191,18 +193,18 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Services/Itinerary Section ======= -->
+    <!-- ======= Services/Flight Info Section ======= -->
     <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="section-title">Our Itinerary</h3>
-            <div class="section-title-divider">But first, let's get you there...</div>
+            <h3 class="section-title">Flights</h3>
+            <div class="section-title-divider"></div>
 
             <ul class="nav nav-tabs">
               <li class="active"><a data-toggle="tab" href="#home">Travel Dates</a></li>
-              <li><a data-toggle="tab" href="#tnt">Flight from Trinidad</a></li>
-              <li><a data-toggle="tab" href="#ny">Flight from New York</a></li>
+              <li><a data-toggle="tab" href="#tnt">From Trinidad</a></li>
+              <li><a data-toggle="tab" href="#ny">From New York</a></li>
             </ul>
 
             <div class="tab-content">
@@ -345,7 +347,7 @@
         </div>
 
         <div class="row hotels-container">
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div class="col-lg-4 col-md-6 hotels-item" id="condominium">
             <img src="img/hotels/condo1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>O Condominium Beachfront Residences, by Bocobay Aruba</h4>
@@ -356,7 +358,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="renaissance" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/renaissance1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Renaissance Wind Creek</h4>
@@ -367,7 +369,7 @@
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="courtyard" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/courtyard.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Courtyard by Marriott</h4>
@@ -378,7 +380,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="embassy" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/embassy1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Embassy Suites By Hilton</h4>
@@ -389,7 +391,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="holiday" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/holiday1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Holiday Inn Resort Aruba</h4>
@@ -400,7 +402,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="eagle" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/eagle1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Eagle Aruba Resort & Casino</h4>
@@ -411,7 +413,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="pearl" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/pearl1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Pearl Aruba Condos</h4>
@@ -422,7 +424,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 hotels-item">
+          <div id="hyatt" class="col-lg-4 col-md-6 hotels-item">
             <img src="img/hotels/hyatt1.jpg" class="img-fluid" alt="" width="400px" height="400px">
             <div class="hotels-info">
               <h4>Hyatt Place Aruba Airport</h4>
