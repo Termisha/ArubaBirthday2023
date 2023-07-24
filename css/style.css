@@ -1163,3 +1163,156 @@ section {
   background-size: cover;
   padding: 80px 0;
 }
+
+/*--------------------------------------------------------------
+# New Hotels/Accomodation Section
+--------------------------------------------------------------*/
+#hotels {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#hotels #hotels-flters {
+  padding: 0;
+  margin: 0 auto 35px auto;
+  list-style: none;
+  text-align: center;
+}
+
+#hotels #hotels-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #666666;
+  transition: all 0.3s ease-in-out;
+}
+
+#hotels #hotels-flters li:hover,
+#hotels #hotels-flters li.filter-active {
+  color: #03C4EB;
+}
+
+#hotels #hotels-flters li:last-child {
+  margin-right: 0;
+}
+
+#hotels .hotels-item {
+  margin-bottom: 30px;
+}
+
+#hotels .hotels-item .hotels-info {
+  opacity: 0;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+}
+
+#hotels .hotels-item .hotels-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+#hotels .hotels-item .hotels-info p {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#hotels .hotels-item .hotels-info .preview-link,
+#hotels .hotels-item .hotels-info .details-link {
+  position: absolute;
+  right: 48px;
+  font-size: 28px;
+  top: calc(50% - 28px);
+  color: #4d4d4d;
+}
+
+#hotels .hotels-item .hotels-info .preview-link:hover,
+#hotels .hotels-item .hotels-info .details-link:hover {
+  color: #03C4EB;
+}
+
+#hotels .hotels-item .hotels-info .details-link {
+  right: 15px;
+}
+
+#hotels .hotels-item:hover .hotels-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# hotels Details
+--------------------------------------------------------------*/
+.hotels-details {
+  padding-top: 20px;
+}
+
+.hotels-details .hotels-details-slider img {
+  width: 100%;
+}
+
+.hotels-details .hotels-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.hotels-details .hotels-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #03C4EB;
+}
+
+.hotels-details .hotels-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #03C4EB;
+}
+
+.hotels-details .hotels-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(51, 51, 51, 0.08);
+}
+
+.hotels-details .hotels-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.hotels-details .hotels-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.hotels-details .hotels-info ul li+li {
+  margin-top: 10px;
+}
+
+.hotels-details .hotels-description {
+  padding-top: 30px;
+}
+
+.hotels-details .hotels-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hotels-details .hotels-description p {
+  padding: 0;
+}
